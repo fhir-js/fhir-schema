@@ -1,9 +1,12 @@
 fhir-schema
 =======
 
+
 [![Build Status](https://travis-ci.org/fhir-js/fhir-schema.svg)](https://travis-ci.org/fhir-js/fhir-schema)
 
 [DEMO](http://niquola.github.io/fhir-schema/#/)
+
+[Chat](zulip.fhir.me) join FHIR zulip chat
 
 Convert FHIR structure definition into JSON schema.
 
