@@ -6,6 +6,7 @@ fhir-schema
 
 [DEMO](http://niquola.github.io/fhir-schema/#/)
 
+
 [Chat](zulip.fhir.me) join FHIR zulip chat
 
 Convert FHIR structure definition into JSON schema.
