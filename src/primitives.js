@@ -23,18 +23,18 @@ module.exports = {
     },
     code: {
         type: 'string',
-        pattern: "[^\s]+([\s]+[^\s]+)*"
+        pattern: "[^\\s]+([\\s]+[^\\s]+)*"
     },
     markdown: {
         type: 'string'
     },
     fhir_id: {
         type: 'string',
-        pattern: "[A-Za-z0-9\-\.]{1,64}"
+        pattern: "[A-Za-z0-9\\-\\.]{1,64}"
     },
     oid: {
         type: 'string',
-        pattern: "urn:oid:[0-2](\.[1-9]\d*)+"
+        pattern: "urn:oid:[0-2](\\.[1-9]\\d*)+"
     },
     xhtml: {
         type: 'string'
